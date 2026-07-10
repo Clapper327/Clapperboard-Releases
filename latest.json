@@ -4,16 +4,16 @@
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.28 & Mac 3.29: macOS output path UI and multi-export Open improvements. Windows remains on 3.28 and will receive these changes in a later update.",
+  "notes": "Win 3.28 & Mac 3.30: macOS update confirmation and automatic app quit after installer launch. Windows remains on 3.28 and will receive related changes in a later update.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.29-mac/Clapperboard_Setup_3.28.exe",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.30-mac/Clapperboard_Setup_3.28.exe",
     "sha256": "f1b94ff45d27b40b1378b775092e886e185f33482e0d18efa61516480a5420c8",
     "size": 81177273
   },
   "mac": {
-    "version": "3.29",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.29-mac/Clapperboard_for_Mac_3.29.pkg",
-    "sha256": "09fc8416618330c7ec46a5b9593e1a138e4cf1823dd9e4826653963d33df636e",
-    "size": 44383621
+    "version": "3.30",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.30-mac/Clapperboard_for_Mac_3.30.pkg",
+    "sha256": "d5c3da02a390acf84985738bc76bb5eecdd195289bc260e8e07b4b357f1489e2",
+    "size": 44384578
   }
 }
