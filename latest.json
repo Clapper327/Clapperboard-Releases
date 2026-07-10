@@ -1,14 +1,14 @@
 {
   "app": "Clapperboard",
-  "version": "3.21",
+  "version": "3.23",
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.21 update. Uses the GitHub Contents API for update metadata to avoid raw CDN cache delays. macOS pkg will follow later.",
+  "notes": "Windows 3.23 update. Slate Detect now uses a short 120-second cache while Sync keeps full-length precision. The file panel keeps the Run button visible. macOS pkg will follow later.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.21/Clapperboard_Setup_3.21.exe",
-    "sha256": "C904716DFD51142C84115657BD14E23D7F56BA801C105D5A5E0F206713B9DCA2",
-    "size": 70774308
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.23/Clapperboard_Setup_3.23.exe",
+    "sha256": "B158317EEE50D03A67D9E3051F28848B7FE7E5DDCF504D3948BD5D6E8E83CAAC",
+    "size": 81179293
   },
   "mac": null
 }
