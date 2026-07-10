@@ -37,7 +37,7 @@ Clapperboard_Setup_3.21.exe
 | 무음 제거 | 기준 오디오 트랙의 무음 구간을 감지해 제거 또는 마킹할 수 있습니다. |
 | 파형 미리보기 | 전체 트랙 또는 개별 트랙을 보며 제거될 구간과 남을 구간을 확인할 수 있습니다. |
 | Premiere XML 내보내기 | Premiere Pro에서 열 수 있는 XML을 생성합니다. |
-| CapCut 내보내기 | Windows CapCut draft 구조로 내보낼 수 있습니다. |
+| CapCut 내보내기 | CapCut draft 구조로 내보낼 수 있습니다. |
 | Final Cut Pro XML | macOS 빌드에서는 Final Cut Pro용 FCPXML 내보내기를 지원합니다. |
 | 앱 내 업데이트 | 공개 업데이트 메타데이터를 확인해 새 설치 프로그램을 다운로드하고 실행할 수 있습니다. |
 
