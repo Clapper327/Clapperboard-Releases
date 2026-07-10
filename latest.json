@@ -1,14 +1,14 @@
 {
   "app": "Clapperboard",
-  "version": "3.20",
+  "version": "3.21",
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.20 update. Uses a cache-stable update metadata URL and keeps the Windows installer update flow enabled. macOS pkg will follow later.",
+  "notes": "Windows 3.21 update. Uses the GitHub Contents API for update metadata to avoid raw CDN cache delays. macOS pkg will follow later.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.20/Clapperboard_Setup_3.20.exe",
-    "sha256": "ACFFDB518D08FB9E9CCFE209A499944060AE100001BEEC507384545F579614DE",
-    "size": 70769113
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.21/Clapperboard_Setup_3.21.exe",
+    "sha256": "C904716DFD51142C84115657BD14E23D7F56BA801C105D5A5E0F206713B9DCA2",
+    "size": 70774308
   },
   "mac": null
 }
