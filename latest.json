@@ -1,14 +1,14 @@
 {
   "app": "Clapperboard",
-  "version": "3.25",
+  "version": "3.27",
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.25: 영문 Ko-fi 후원 창을 약 20% 작게 다듬었습니다. The English Ko-fi support popup is about 20% smaller. Sync and silence-removal behavior are unchanged. macOS pkg will follow later.",
+  "notes": "Windows 3.27: 업데이트 안내의 Later/Update Now 버튼을 복구했습니다. v3.24/v3.25 사용자는 이 설치파일을 한 번 직접 실행해야 하며, 이후 버전부터 원클릭 업데이트가 동작합니다. The update actions are restored; v3.24/v3.25 require one direct installer run. macOS pkg will follow later.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.25/Clapperboard_Setup_3.25.exe",
-    "sha256": "B44C0D6D3EFC1AD5D6F09DCB442B0FDAE2259326FE9AD9F4C75CD64888A02629",
-    "size": 81178502
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.27/Clapperboard_Setup_3.27.exe",
+    "sha256": "D7AFB1EB00F3A7119CD533158D14CF4A2F052C4758538086D77D8C9DC140A764",
+    "size": 81180272
   },
   "mac": null
 }
