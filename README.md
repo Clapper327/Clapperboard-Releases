@@ -1,96 +1,78 @@
-# Clapperboard
+# Clapperboard Releases
 
-현재 Windows 버전: `3.23`
+현재 Windows 버전: **3.24**
 
-Clapperboard는 여러 카메라로 촬영한 영상을 오디오 기준으로 정렬하고, 말이 없는 구간을 찾아 편집용 XML 또는 CapCut 프로젝트로 내보내는 데스크톱 도구입니다. 촬영 현장에서 한 카메라는 길게 녹화되고 다른 카메라는 배터리나 발열 때문에 여러 조각으로 나뉘는 상황까지 염두에 두고 만들었습니다.
+여러 카메라의 촬영 파일을 오디오와 슬레이트 파형으로 동기화하고, 무음 구간을 정리해 Premiere Pro XML, CapCut 프로젝트 또는 macOS의 Final Cut Pro XML로 내보내는 데스크톱 앱입니다.
 
-## 배포 상태
-
-- Windows: `Clapperboard_Setup_3.23.exe` 배포 중
-- macOS: 추후 `Clapperboard_for_Mac.pkg` 형식으로 배포 예정
-- 앱 내 업데이트: Windows 설치 프로그램 기준으로 먼저 활성화됨
+> 이 저장소는 설치 파일과 공개 업데이트 정보만 배포합니다.
 
 ## 다운로드
 
-Windows 최신 릴리스:
+[Clapperboard 3.24 Windows 릴리스](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.24)
 
-```text
-https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.23
-```
+설치 파일: `Clapperboard_Setup_3.24.exe`
 
-Windows 설치 파일:
+설치 프로그램은 현재 사용자 영역의 `%LOCALAPPDATA%\Programs\Clapperboard`에 앱을 설치하고 시작 메뉴 바로가기를 만듭니다. 같은 설치 파일을 다시 실행하면 기존 설치본 위에 업데이트됩니다.
 
-```text
-Clapperboard_Setup_3.23.exe
-```
+## 3.24 주요 변경사항
 
-설치 후 앱을 실행하면 새 버전 확인이 가능하며, 새 버전이 있을 때 상단 헤더에 `업데이트` 버튼이 표시됩니다.
+- `지금 업데이트` 한 번으로 다운로드, 파일 검증, 앱 종료, 무인 설치, 새 버전 재실행까지 완료합니다.
+- 이미 배포된 v3.23의 업데이트 버튼도 별도 다운로드 페이지나 설치 마법사 조작 없이 v3.24로 넘어갑니다.
+- SHA256과 예상 파일 크기가 모두 맞아야 설치 파일을 실행합니다.
+- 다운로드 폴더에서 설치 파일을 직접 실행할 때는 일반 설치 마법사를 유지합니다.
+- Windows 번들에 FFmpeg와 ffprobe `8.1.2`를 포함합니다.
 
-## 3.23 주요 변경사항
+## 앱 안에서 업데이트
 
-- 슬레이트 감지는 긴 촬영 파일 전체를 먼저 해제하지 않고 앞 120초만 별도 캐시로 분석합니다.
-- 일반 `Sync`는 전체 오디오와 Synking/GCC-PHAT/메타데이터 교차검증 경로를 유지합니다.
-- Windows DPI 배율과 분할선 위치를 고려해 파일 선택 영역의 최소 폭을 보정하므로 실행 버튼이 사라지지 않습니다.
-- ffmpeg와 ffprobe 8.1.2 안정판을 설치본에 포함합니다.
+Clapperboard는 시작할 때와 `도움말 > 업데이트 확인`을 눌렀을 때 이 저장소의 [`latest.json`](./latest.json)을 확인합니다. 새 버전이 있으면 본창 헤더에 `업데이트` 버튼이 나타납니다.
+
+Windows에서 `지금 업데이트`를 누르면 다음 순서가 자동으로 진행됩니다.
+
+1. GitHub Release에서 최신 설치 파일 다운로드
+2. 공개 피드의 파일 크기와 SHA256 검증
+3. 실행 중인 Clapperboard 종료
+4. 현재 사용자 영역에 새 버전 설치
+5. 설치된 새 버전 자동 실행
+
+업데이트 파일 URL은 이 저장소의 GitHub Release 자산으로 제한됩니다.
 
 ## 주요 기능
 
 | 기능 | 설명 |
 |---|---|
-| 멀티카메라 오디오 동기화 | 여러 촬영 파일의 파형, 슬레이트, 메타데이터를 조합해 트랙 간 시작 위치를 맞춥니다. |
-| 분할 촬영본 처리 | 같은 카메라가 여러 클립으로 나뉘어도 긴 기준 촬영본 위에 상대 위치를 배치합니다. |
-| 약한 오디오 보정 | 작은 대화 소리나 낮은 레벨의 오디오를 분석할 때 보조 증폭과 필터링을 적용합니다. |
-| 메타데이터 보조 싱크 | 파형 신뢰도가 낮을 때 녹화 시작 시각, 파일 생성 시각, 상대 순서 등을 보조 근거로 사용합니다. |
-| 무음 제거 | 기준 오디오 트랙의 무음 구간을 감지해 제거 또는 마킹할 수 있습니다. |
-| 파형 미리보기 | 전체 트랙 또는 개별 트랙을 보며 제거될 구간과 남을 구간을 확인할 수 있습니다. |
-| Premiere XML 내보내기 | Premiere Pro에서 열 수 있는 XML을 생성합니다. |
-| CapCut 내보내기 | CapCut draft 구조로 내보낼 수 있습니다. |
-| Final Cut Pro XML | macOS 빌드에서는 Final Cut Pro용 FCPXML 내보내기를 지원합니다. |
-| 앱 내 업데이트 | 공개 업데이트 메타데이터를 확인해 새 설치 프로그램을 다운로드하고 실행할 수 있습니다. |
+| 멀티카메라 Sync | 오디오 파형, 슬레이트, Synking/GCC-PHAT와 메타데이터를 조합해 여러 촬영본의 상대 위치를 찾습니다. |
+| 분할 촬영 대응 | 같은 카메라가 배터리나 발열 때문에 여러 파일로 나뉜 경우에도 긴 기준 촬영본 위에 배치합니다. |
+| 약한 오디오 보정 | 작은 음성은 게인 증폭과 필터링으로 분석하고 신뢰도가 낮으면 메타데이터와 상대 시간으로 보완합니다. |
+| 무음 제거 | 기준 오디오 트랙에서 무음 구간을 찾아 제거하거나 마커로 남깁니다. |
+| 파형 미리보기 | 전체 트랙 또는 개별 트랙의 동기화와 제거 예정 구간을 확인합니다. |
+| 편집기 내보내기 | Premiere Pro XML, CapCut 프로젝트, macOS Final Cut Pro XML을 지원합니다. |
 
-## 기본 사용 흐름
+## 파일 무결성
 
-1. 촬영 파일을 트랙 A, B, C 등에 불러옵니다.
-2. 필요한 경우 기준 오디오 트랙과 무음 감지 설정을 조정합니다.
-3. `Sync` 또는 슬레이트 감지로 동기화를 확인합니다.
-4. 파형 미리보기에서 전체 트랙 또는 개별 트랙을 확인합니다.
-5. 실행 후 Premiere XML, CapCut draft 등 필요한 결과물을 엽니다.
+- 파일: `Clapperboard_Setup_3.24.exe`
+- 크기: `81,178,069` bytes
+- SHA256: `F6D3C5EDFFF5FB7F27223CDF8B99A7EB44D23EBCC8B5874C62059788BD20F1F5`
 
-## 업데이트 방식
+PowerShell에서 확인:
 
-Clapperboard는 공개 업데이트 메타데이터를 확인해 현재 설치된 버전보다 높은 버전이 있을 때 업데이트 버튼을 보여줍니다.
-
-업데이트 다운로드는 `Clapper327/Clapperboard-Releases`의 GitHub Release 자산으로 제한되며, 설치 파일은 SHA256 검증을 통과해야 실행됩니다.
-
-현재 업데이트 메타데이터:
-
-```text
-https://api.github.com/repos/Clapper327/Clapperboard-Releases/contents/latest.json?ref=main
+```powershell
+Get-FileHash .\Clapperboard_Setup_3.24.exe -Algorithm SHA256
 ```
 
-## Windows 설치 정보
+## Windows 보안 안내
 
-- 설치 파일: `Clapperboard_Setup_3.23.exe`
-- 설치 위치: 사용자 설치 기준 `%LOCALAPPDATA%\Programs\Clapperboard`
-- 재설치/업데이트: 새 설치 파일을 실행하면 기존 설치본 위에 덮어 설치됩니다.
-- 무인 설치 예시:
+현재 설치 파일에는 Authenticode 코드 서명이 없습니다. GitHub HTTPS와 SHA256으로 파일 무결성을 검증하지만, Windows Defender SmartScreen이 `알 수 없는 게시자` 또는 `인식할 수 없는 앱` 경고를 표시할 수 있습니다. Defender나 SmartScreen을 끄는 것은 권장하지 않습니다.
 
-```bat
-Clapperboard_Setup_3.23.exe /CURRENTUSER /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
-```
+## macOS
 
-v3.23 설치 파일은 아직 Authenticode 코드 서명이 없어 Windows Defender SmartScreen의 알 수 없는 게시자 안내가 표시될 수 있습니다. GitHub 릴리스 페이지의 SHA256과 설치 파일의 해시를 비교할 수 있으며, Defender나 SmartScreen을 끄는 것은 권장하지 않습니다.
+macOS v3.24 pkg는 서명, 공증, 권한 처리와 실제 구버전 원클릭 업데이트 검증을 마친 뒤 별도로 배포합니다. 그전까지 공개 업데이트 피드의 `mac` 값은 `null`로 유지됩니다.
 
 ## 라이선스
 
-Clapperboard 소스코드는 MIT License로 배포합니다.
+이 저장소의 문서와 업데이트 메타데이터는 [MIT License](./LICENSE)를 따릅니다.
 
 ```text
 Copyright (c) 2026 Clapper327
 ```
 
-배포 파일에 포함되는 ffmpeg/ffprobe 등 외부 구성 요소는 각 프로젝트의 라이선스를 따릅니다.
-
-## macOS 안내
-
-macOS 버전은 같은 Clapperboard 코드베이스에서 관리됩니다. macOS 배포판은 Finder 기반 파일 선택, macOS 경로/캐시 처리, Final Cut Pro XML 내보내기를 포함하며, 추후 `.pkg` 설치 파일로 공개 배포될 예정입니다.
+배포 파일에 포함된 FFmpeg와 기타 구성 요소는 각 프로젝트의 라이선스를 따릅니다.
