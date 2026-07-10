@@ -4,11 +4,16 @@
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.27: 업데이트 안내의 Later/Update Now 버튼을 복구했습니다. v3.24/v3.25 사용자는 이 설치파일을 한 번 직접 실행해야 하며, 이후 버전부터 원클릭 업데이트가 동작합니다. The update actions are restored; v3.24/v3.25 require one direct installer run. macOS pkg will follow later.",
+  "notes": "Windows 3.27: 업데이트 안내의 Later/Update Now 버튼을 복구했습니다. macOS 3.28: Mac pkg가 Windows 최신 코드 흐름을 따라잡았고, 플랫폼별 업데이트 버전(mac.version)을 지원합니다. Windows remains on the published 3.27 installer; macOS receives the 3.28 pkg.",
   "windows": {
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.27/Clapperboard_Setup_3.27.exe",
     "sha256": "D7AFB1EB00F3A7119CD533158D14CF4A2F052C4758538086D77D8C9DC140A764",
     "size": 81180272
   },
-  "mac": null
+  "mac": {
+    "version": "3.28",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.28-mac/Clapperboard_for_Mac.pkg",
+    "sha256": "75d243b7c2ed76806e5790c1ee7e8d333002ef79322a48defb54002c54bfffc4",
+    "size": 44379184
+  }
 }
