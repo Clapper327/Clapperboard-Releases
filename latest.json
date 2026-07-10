@@ -1,14 +1,14 @@
 {
   "app": "Clapperboard",
-  "version": "3.23",
+  "version": "3.24",
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.23 update. Slate Detect now uses a short 120-second cache while Sync keeps full-length precision. The file panel keeps the Run button visible. macOS pkg will follow later.",
+  "notes": "Windows 3.24: 원클릭 업데이트가 다운로드, 검증, 설치와 재실행까지 완료합니다. One-click update now downloads, verifies, installs, and relaunches the latest version. macOS pkg will follow later.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.23/Clapperboard_Setup_3.23.exe",
-    "sha256": "B158317EEE50D03A67D9E3051F28848B7FE7E5DDCF504D3948BD5D6E8E83CAAC",
-    "size": 81179293
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.24/Clapperboard_Setup_3.24.exe",
+    "sha256": "F6D3C5EDFFF5FB7F27223CDF8B99A7EB44D23EBCC8B5874C62059788BD20F1F5",
+    "size": 81178069
   },
   "mac": null
 }
