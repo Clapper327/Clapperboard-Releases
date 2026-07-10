@@ -4,16 +4,16 @@
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Clapperboard 3.28: Windows 설치 프로그램과 macOS pkg를 함께 배포합니다. 업데이트 창은 현재/최신 버전과 Later/Update Now 버튼만 표시합니다. This release provides both the Windows installer and macOS pkg.",
+  "notes": "Windows 3.28: 설치 프로그램을 유지합니다. macOS 3.29: pkg가 /Applications/Clapperboard for Mac.app에 고정 설치되고 설치 후 앱을 자동 실행합니다. Windows remains on 3.28; macOS receives the 3.29 pkg install fix.",
   "windows": {
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.28-complete/Clapperboard_Setup_3.28.exe",
     "sha256": "f1b94ff45d27b40b1378b775092e886e185f33482e0d18efa61516480a5420c8",
     "size": 81177273
   },
   "mac": {
-    "version": "3.28",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.28-complete/Clapperboard_for_Mac.pkg",
-    "sha256": "75d243b7c2ed76806e5790c1ee7e8d333002ef79322a48defb54002c54bfffc4",
-    "size": 44379184
+    "version": "3.29",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.29-mac-pkgfix/Clapperboard_for_Mac.pkg",
+    "sha256": "d4da766ec37e41a7204124c1d9cc5bf1ae14c2b159ef2a958648b1220af9cb2e",
+    "size": 44377871
   }
 }
