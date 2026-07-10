@@ -1,10 +1,14 @@
 {
   "app": "Clapperboard",
-  "version": "3.1",
-  "released_at": "2026-07-08",
+  "version": "3.19",
+  "released_at": "2026-07-10",
   "channel": "stable",
-  "available": false,
-  "notes": "Public update metadata placeholder. No public download is published yet.",
-  "windows": null,
+  "available": true,
+  "notes": "Windows 3.19 update. Adds the in-app update checker and Windows installer update flow. macOS pkg will follow later.",
+  "windows": {
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.19/Clapperboard_Setup_3.19.exe",
+    "sha256": "5787DDAFED8E07D6B4A299AB3B6B439718F545C7FEA9AB6F6554B21B8BB0336F",
+    "size": 70767483
+  },
   "mac": null
 }
