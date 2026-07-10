@@ -72,6 +72,15 @@ https://api.github.com/repos/Clapper327/Clapperboard-Releases/contents/latest.js
 Clapperboard_Setup_3.21.exe /CURRENTUSER /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
 ```
 
+## 라이선스
+
+Clapperboard 소스코드는 MIT License로 배포합니다.
+
+```text
+Copyright (c) 2026 Clapper327
+```
+
+배포 파일에 포함되는 ffmpeg/ffprobe 등 외부 구성 요소는 각 프로젝트의 라이선스를 따릅니다.
 ## macOS 안내
 
 macOS 버전은 같은 Clapperboard 코드베이스에서 관리됩니다. macOS 배포판은 Finder 기반 파일 선택, macOS 경로/캐시 처리, Final Cut Pro XML 내보내기를 포함하며, 추후 `.pkg` 설치 파일로 공개 배포될 예정입니다.
