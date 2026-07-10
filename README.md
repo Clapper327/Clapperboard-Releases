@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **3.28**
+현재 공개 버전: **Win 3.28 & Mac 3.29**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 프로그램으로 넘길 수 있게 도와주는 데스크톱 앱입니다.
 
@@ -8,18 +8,19 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Clapperboard 3.28 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.28-20260710)
+[Clapperboard Win 3.28 & Mac 3.29 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.29-mac)
 
 - Windows: `Clapperboard_Setup_3.28.exe`
-- macOS: `Clapperboard_for_Mac_3.28.pkg`
+- macOS: `Clapperboard_for_Mac_3.29.pkg`
 
-## 3.28 주요 변경사항
+Windows는 현재 3.28을 유지하며, 이번 macOS 개선사항은 추후 Windows 업데이트에 반영할 예정입니다.
 
-- 앱 안 업데이트 안내창을 더 단순하게 정리했습니다.
-- macOS 설치 패키지 흐름을 개선했습니다.
-- macOS 설치 완료 후 앱이 자동으로 열리도록 개선했습니다.
-- Windows와 macOS 설치 파일 이름에 버전 번호를 맞췄습니다.
-- Sync, 슬레이트 감지, 파형 미리보기, 무음 제거, XML, Final Cut Pro XML, CapCut 내보내기 동작은 유지했습니다.
+## 주요 변경사항
+
+- macOS 출력 경로가 길어도 `Change` 버튼이 가려지지 않도록 개선했습니다.
+- 여러 형식으로 동시에 내보낸 경우 결과 `Open` 버튼이 모든 내보낸 경로를 열도록 개선했습니다.
+- macOS 패키지를 3.29로 업데이트했습니다.
+- Sync, Slate Detect, 무음 제거, 파형 미리보기, Premiere XML, Final Cut Pro XML, CapCut 내보내기 동작은 유지했습니다.
 
 ## 주요 기능
 

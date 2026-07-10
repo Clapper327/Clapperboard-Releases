@@ -4,16 +4,16 @@
   "released_at": "2026-07-10",
   "channel": "stable",
   "available": true,
-  "notes": "Clapperboard 3.28: update dialog and macOS package install flow improvements. Sync, silence removal, waveform preview, XML, Final Cut Pro XML, and CapCut export behavior are unchanged.",
+  "notes": "Win 3.28 & Mac 3.29: macOS output path UI and multi-export Open improvements. Windows remains on 3.28 and will receive these changes in a later update.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.28-20260710/Clapperboard_Setup_3.28.exe",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.29-mac/Clapperboard_Setup_3.28.exe",
     "sha256": "f1b94ff45d27b40b1378b775092e886e185f33482e0d18efa61516480a5420c8",
     "size": 81177273
   },
   "mac": {
-    "version": "3.28",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.28-20260710/Clapperboard_for_Mac_3.28.pkg",
-    "sha256": "2b912eeffd00f4888bd30adfd66b75bfddb0537ea7715db67efbcdd4e7c90722",
-    "size": 44379403
+    "version": "3.29",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.29-mac/Clapperboard_for_Mac_3.29.pkg",
+    "sha256": "09fc8416618330c7ec46a5b9593e1a138e4cf1823dd9e4826653963d33df636e",
+    "size": 44383621
   }
 }
