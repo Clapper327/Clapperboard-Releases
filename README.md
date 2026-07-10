@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.28 & Mac 3.29**
+현재 공개 버전: **Win 3.28 & Mac 3.30**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 프로그램으로 넘길 수 있게 도와주는 데스크톱 앱입니다.
 
@@ -8,18 +8,18 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Clapperboard Win 3.28 & Mac 3.29 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.29-mac)
+[Clapperboard Win 3.28 & Mac 3.30 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.30-mac)
 
 - Windows: `Clapperboard_Setup_3.28.exe`
-- macOS: `Clapperboard_for_Mac_3.29.pkg`
+- macOS: `Clapperboard_for_Mac_3.30.pkg`
 
 Windows는 현재 3.28을 유지하며, 이번 macOS 개선사항은 추후 Windows 업데이트에 반영할 예정입니다.
 
 ## 주요 변경사항
 
-- macOS 출력 경로가 길어도 `Change` 버튼이 가려지지 않도록 개선했습니다.
-- 여러 형식으로 동시에 내보낸 경우 결과 `Open` 버튼이 모든 내보낸 경로를 열도록 개선했습니다.
-- macOS 패키지를 3.29로 업데이트했습니다.
+- macOS 업데이트에서 설치 프로그램을 받기 전에 확인창을 표시하도록 개선했습니다.
+- macOS 설치 프로그램이 열리면 Clapperboard for Mac이 자동 종료되어 업데이트 적용이 더 깔끔해졌습니다.
+- macOS 패키지를 3.30으로 업데이트했습니다.
 - Sync, Slate Detect, 무음 제거, 파형 미리보기, Premiere XML, Final Cut Pro XML, CapCut 내보내기 동작은 유지했습니다.
 
 ## 주요 기능
@@ -37,7 +37,7 @@ Windows는 현재 3.28을 유지하며, 이번 macOS 개선사항은 추후 Wind
 
 Clapperboard는 새 버전이 있으면 앱 안에 업데이트 버튼을 표시합니다. `도움말 > 업데이트 확인`에서도 직접 확인할 수 있습니다.
 
-Windows에서는 업데이트 버튼으로 새 설치 파일을 받아 설치를 진행할 수 있습니다. macOS에서는 패키지 설치 화면을 통해 업데이트를 진행합니다.
+Windows에서는 업데이트 버튼으로 새 설치 파일을 받아 설치를 진행할 수 있습니다. macOS에서는 확인 후 패키지 설치 화면을 열고, 설치 프로그램이 열리면 앱이 자동 종료됩니다.
 
 ## 라이선스
 
