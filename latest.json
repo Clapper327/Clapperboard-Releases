@@ -1,14 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.28",
-  "released_at": "2026-07-11",
+  "version": "3.32",
+  "released_at": "2026-07-12",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.28 & Mac 3.31: macOS menu text is easier to read, and first-time macOS users should download the ZIP with the install guide. Windows remains on 3.28 and will receive this menu fix in a later update.",
+  "notes": "Windows 3.32 is available. macOS remains on 3.31 until the matching macOS package is published.",
   "windows": {
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.31-mac-guide/Clapperboard_Setup_3.28.exe",
-    "sha256": "f1b94ff45d27b40b1378b775092e886e185f33482e0d18efa61516480a5420c8",
-    "size": 81177273
+    "version": "3.32",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.32/Clapperboard_Setup_3.32.exe",
+    "sha256": "85e1bb0421e7735fb5a77a4062ccb2abaa9bb51e9d3b87d53395036627d3d7ea",
+    "size": 81187529
   },
   "mac": {
     "version": "3.31",
