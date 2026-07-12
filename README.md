@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.28 & Mac 3.31**
+현재 공개 버전: **Win 3.33 & Mac 3.31**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 프로그램으로 넘길 수 있게 도와주는 데스크톱 앱입니다.
 
@@ -8,21 +8,22 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Clapperboard Win 3.28 & Mac 3.31 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.31-mac-guide)
+[Clapperboard Win 3.33 & Mac 3.31 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.33)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
-- 🍎 macOS 처음 설치: `Clapperboard_for_Mac_3.31_with_Install_Guide.zip`
-- 🪟 Windows: `Clapperboard_Setup_3.28.exe`
-- 🔄 macOS 앱 안 업데이트: `Clapperboard_for_Mac_3.31.pkg`
+- 🪟 Windows: [`Clapperboard_Setup_3.33.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.33/Clapperboard_Setup_3.33.exe)
+- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.31_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.31-mac-guide/Clapperboard_for_Mac_3.31_with_Install_Guide.zip)
+- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.31.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.31-mac-guide/Clapperboard_for_Mac_3.31.pkg)
 
-Windows는 현재 3.28을 유지하며, 이번 macOS 개선사항은 추후 Windows 업데이트에 반영할 예정입니다.
+Windows는 현재 3.33입니다. macOS는 3.31을 유지하며, macOS 3.33 패키지는 추후 별도 배포 예정입니다.
 
 ## 주요 변경사항
 
-- macOS 메뉴 글씨 크기를 8pt에서 12pt로 복구해 더 잘 보이도록 개선했습니다.
-- 📦 macOS 처음 설치 사용자는 한글/영문 설치 안내문이 들어 있는 ZIP 파일을 받도록 안내를 강화했습니다.
-- macOS 패키지를 3.31로 업데이트했습니다.
+- Windows 헤더의 MatchaColor 링크 문구를 `색상 동기화?` / `Color Sync?`로 정리했습니다.
+- Windows 헤더에서 MatchaColor 링크 위치와 글씨 크기를 조정했습니다.
+- 📦 macOS 처음 설치 사용자는 한글/영문 설치 안내문이 들어 있는 ZIP 파일을 받도록 안내를 유지했습니다.
+- macOS 공개 패키지는 3.31을 유지합니다.
 - Sync, Slate Detect, 무음 제거, 파형 미리보기, Premiere XML, Final Cut Pro XML, CapCut 내보내기 동작은 유지했습니다.
 
 ## 주요 기능
