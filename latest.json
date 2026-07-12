@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.32",
+  "version": "3.33",
   "released_at": "2026-07-12",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.32 is available. macOS remains on 3.31 until the matching macOS package is published.",
+  "notes": "Windows 3.33 is available. macOS remains on 3.31 until the matching macOS package is published.",
   "windows": {
-    "version": "3.32",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.32/Clapperboard_Setup_3.32.exe",
-    "sha256": "85e1bb0421e7735fb5a77a4062ccb2abaa9bb51e9d3b87d53395036627d3d7ea",
-    "size": 81187529
+    "version": "3.33",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.33/Clapperboard_Setup_3.33.exe",
+    "sha256": "6e9f22cb9de627f183fc8f0f24b8e80e3ac41b3fa4540d7bd38d618bc4ab31ac",
+    "size": 81183996
   },
   "mac": {
     "version": "3.31",
