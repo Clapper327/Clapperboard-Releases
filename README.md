@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.34 & Mac 3.31**
+현재 공개 버전: **Win 3.34 & Mac 3.34**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 프로그램으로 넘길 수 있게 도와주는 데스크톱 앱입니다.
 
@@ -8,22 +8,22 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Clapperboard Win 3.34 & Mac 3.31 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.34)
+[Clapperboard Win 3.34 & Mac 3.34 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.34)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
 - 🪟 Windows: [`Clapperboard_Setup_3.34.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_Setup_3.34.exe)
-- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.31_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.31-mac-guide/Clapperboard_for_Mac_3.31_with_Install_Guide.zip)
-- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.31.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.31-mac-guide/Clapperboard_for_Mac_3.31.pkg)
+- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.34_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_for_Mac_3.34_with_Install_Guide.zip)
+- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.34.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_for_Mac_3.34.pkg)
 
-Windows는 현재 3.34입니다. macOS는 3.31을 유지하며, 다음 macOS 패키지는 별도 배포 예정입니다.
+Windows와 macOS 모두 현재 3.34입니다.
 
 ## 주요 변경사항
 
 - A 트랙을 비워도 남은 첫 파일을 자동으로 A로 올리고, 기존 트랙의 시간 관계를 유지합니다.
 - 멀티카메라 Sync의 기준 선택과 복구 흐름을 다듬었습니다.
+- macOS도 같은 3.34 Sync 흐름과 `색상 동기화?` / `Color Sync?` 헤더 링크를 포함합니다.
 - 📦 macOS 처음 설치 사용자는 한글/영문 설치 안내문이 들어 있는 ZIP 파일을 받도록 안내를 유지했습니다.
-- macOS 공개 패키지는 3.31을 유지합니다.
 
 ## 주요 기능
 

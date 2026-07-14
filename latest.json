@@ -1,10 +1,10 @@
 {
   "app": "Clapperboard",
   "version": "3.34",
-  "released_at": "2026-07-14",
+  "released_at": "2026-07-15",
   "channel": "stable",
   "available": true,
-  "notes": "Windows 3.34 is available. macOS remains on 3.31 until the matching macOS package is published.",
+  "notes": "Win 3.34 & Mac 3.34: macOS now includes the improved Sync recovery flow and the first-install ZIP guide.",
   "windows": {
     "version": "3.34",
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_Setup_3.34.exe",
@@ -12,9 +12,9 @@
     "size": 81188142
   },
   "mac": {
-    "version": "3.31",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.31-mac-guide/Clapperboard_for_Mac_3.31.pkg",
-    "sha256": "07266769ce6c6580c0a68983fa3eeb1614573676cd680f975bff9c51f46c3e2b",
-    "size": 44383901
+    "version": "3.34",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_for_Mac_3.34.pkg",
+    "sha256": "9c3c748ac9a984fc3ef6c5ff7d99cbf9a8a842732f1222c46cf8ca6076ff6bcf",
+    "size": 44388791
   }
 }
