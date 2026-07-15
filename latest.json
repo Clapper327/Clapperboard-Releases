@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.34",
+  "version": "3.60",
   "released_at": "2026-07-15",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.34 & Mac 3.34: macOS now includes the improved Sync recovery flow and the first-install ZIP guide.",
+  "notes": "Win 3.60 & Mac 3.34: 24-track workflow, Synking sync improvements, waveform preview and export polish.",
   "windows": {
-    "version": "3.34",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_Setup_3.34.exe",
-    "sha256": "06be5a0bb4a98537ad45fc9d74b8311a347e24ec78ccfb9bd7193a00f228281b",
-    "size": 81188142
+    "version": "3.60",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.60/Clapperboard_Setup_3.60.exe",
+    "sha256": "361cf02340628823821ec7931f043d0415e60c2edcb73f272460cec35ab86399",
+    "size": 81226484
   },
   "mac": {
     "version": "3.34",
