@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.61",
+  "version": "3.62",
   "released_at": "2026-07-15",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.61 & Mac 3.34: all-track waveform playback, 24-track workflow, Synking sync improvements, and export polish.",
+  "notes": "Win 3.62 & Mac 3.34: update button placement, all-track waveform playback, 24-track workflow, and export polish.",
   "windows": {
-    "version": "3.61",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.61/Clapperboard_Setup_3.61.exe",
-    "sha256": "ba6bd358e32dd702e063af9041e16dee60319a9e788a29dcfb95f857d207c86c",
-    "size": 81229701
+    "version": "3.62",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.62/Clapperboard_Setup_3.62.exe",
+    "sha256": "e571b178c081d1c40e2e1282e727a150919b2675aeb23bdfebccfc7d42b1aa02",
+    "size": 81225892
   },
   "mac": {
     "version": "3.34",

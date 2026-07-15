@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.61 & Mac 3.34**
+현재 공개 버전: **Win 3.62 & Mac 3.34**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 준비를 돕는 데스크톱 앱입니다.
 
@@ -8,19 +8,20 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Clapperboard Win 3.61 & Mac 3.34 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.61)
+[Clapperboard Win 3.62 & Mac 3.34 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.62)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
-- 🪟 Windows: [`Clapperboard_Setup_3.61.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.61/Clapperboard_Setup_3.61.exe)
+- 🪟 Windows: [`Clapperboard_Setup_3.62.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.62/Clapperboard_Setup_3.62.exe)
 - 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.34_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_for_Mac_3.34_with_Install_Guide.zip)
 - 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.34.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.34/Clapperboard_for_Mac_3.34.pkg)
 
-Windows는 현재 3.61입니다. macOS는 3.61 포팅과 패키지 검증이 끝날 때까지 공개 최신 버전을 3.34로 유지합니다.
+Windows는 현재 3.62입니다. macOS는 3.62 포팅과 패키지 검증이 끝날 때까지 공개 최신 버전을 3.34로 유지합니다.
 
 ## 주요 변경사항
 
 - 최대 24트랙 작업 흐름을 정식 Clapperboard 기능으로 정리했습니다.
+- 새 버전이 감지되면 업데이트 버튼이 실행 버튼 옆에 나타나도록 정리했습니다.
 - 파형 미리보기의 전체재생이 모든 로드된 트랙을 함께 재생하도록 개선했습니다.
 - Synking 엔진 기반 오디오 동기화를 개선해, 분할 촬영본과 부분 겹침 촬영본을 더 안정적으로 배치합니다.
 - A 트랙이 비어 있어도 남은 트랙을 자동으로 승격하고 offset을 재정렬합니다.
