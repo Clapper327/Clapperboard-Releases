@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.62",
-  "released_at": "2026-07-15",
+  "version": "3.63",
+  "released_at": "2026-07-20",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.62 & Mac 3.62: macOS now includes the 24-track workflow, improved Synking, all-track waveform playback, export polish, and the Run-adjacent update button.",
+  "notes": "Win 3.63 & Mac 3.62: Windows adds aligned multitrack silence marking and magnetic-timeline CapCut/Final Cut multicam exports so cameras stay in sync; macOS stays on 3.62 until its 3.63 package ships.",
   "windows": {
-    "version": "3.62",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.62/Clapperboard_Setup_3.62.exe",
-    "sha256": "e571b178c081d1c40e2e1282e727a150919b2675aeb23bdfebccfc7d42b1aa02",
-    "size": 81225892
+    "version": "3.63",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.63/Clapperboard_Setup_3.63.exe",
+    "sha256": "08089f272462d3fad844298496cb6b3591397f5ca27594ab230603dbc32c9011",
+    "size": 81204688
   },
   "mac": {
     "version": "3.62",
