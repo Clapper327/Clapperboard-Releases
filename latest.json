@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.63",
-  "released_at": "2026-07-20",
+  "version": "3.68",
+  "released_at": "2026-07-27",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.63 & Mac 3.62: Windows adds aligned multitrack silence marking and magnetic-timeline CapCut/Final Cut multicam exports so cameras stay in sync; macOS stays on 3.62 until its 3.63 package ships.",
+  "notes": "Win 3.68 & Mac 3.62: Windows improves multitrack sync review, waveform preview refresh, slate detection, silence handling, and export stability. macOS stays on 3.62 until its 3.68 package ships.",
   "windows": {
-    "version": "3.63",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.63/Clapperboard_Setup_3.63.exe",
-    "sha256": "08089f272462d3fad844298496cb6b3591397f5ca27594ab230603dbc32c9011",
-    "size": 81204688
+    "version": "3.68",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.68/Clapperboard_Setup_3.68.exe",
+    "sha256": "a80e2c3ca330544b04a22ef7a4e6e4925233e3cb75c601e35db2da12af816693",
+    "size": 81220621
   },
   "mac": {
     "version": "3.62",
