@@ -4,7 +4,7 @@
   "released_at": "2026-07-27",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.68 & Mac 3.62: Windows improves multitrack sync review, waveform preview refresh, slate detection, silence handling, and export stability. macOS stays on 3.62 until its 3.68 package ships.",
+  "notes": "Win 3.68 & Mac 3.68: multitrack Sync, waveform preview, slate detection, silence handling, and editor exports are improved on both platforms.",
   "windows": {
     "version": "3.68",
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.68/Clapperboard_Setup_3.68.exe",
@@ -12,9 +12,9 @@
     "size": 81220621
   },
   "mac": {
-    "version": "3.62",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.62/Clapperboard_for_Mac_3.62.pkg",
-    "sha256": "820f58e25c0fdf8977c3e9f47e911507c408ec93da812209cdcee9848b3d7864",
-    "size": 44275529
+    "version": "3.68",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.68/Clapperboard_for_Mac_3.68.pkg",
+    "sha256": "ebedd3d100157d3f7cbc9ca74f8b178e001cd7b3bd9d47b82395822b4c7f3599",
+    "size": 44268043
   }
 }
