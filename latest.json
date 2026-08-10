@@ -4,7 +4,7 @@
   "released_at": "2026-08-10",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.69 & Mac 3.68: Windows refines the multitrack workflow, silence analysis, waveform preview, and in-app guide. macOS 3.68 is available with the current packaged workflow improvements.",
+  "notes": "Win 3.69 & Mac 3.69: Sync and Silence Analysis are now separate steps, continuity-aware silence handling improves multitrack exports, and the in-app User Guide is available in Korean and English.",
   "windows": {
     "version": "3.69",
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_Setup_3.69.exe",
@@ -12,9 +12,9 @@
     "size": 81238059
   },
   "mac": {
-    "version": "3.68",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.68/Clapperboard_for_Mac_3.68.pkg",
-    "sha256": "ebedd3d100157d3f7cbc9ca74f8b178e001cd7b3bd9d47b82395822b4c7f3599",
-    "size": 44268043
+    "version": "3.69",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_for_Mac_3.69.pkg",
+    "sha256": "48bcfbad544a9177fb9fc86b2da11517f5c3d75e09266574036aef3db19d10a5",
+    "size": 44281809
   }
 }
