@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.69 & Mac 3.68**
+현재 공개 버전: **Win 3.69 & Mac 3.69**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 준비를 돕는 데스크톱 앱입니다.
 
@@ -8,28 +8,26 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Windows 3.69 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.69) · [macOS 3.68 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.68)
+[Windows 3.69 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.69) · [macOS 3.69 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.69)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
 - 🪟 Windows: [`Clapperboard_Setup_3.69.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_Setup_3.69.exe)
-- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.68_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.68/Clapperboard_for_Mac_3.68_with_Install_Guide.zip)
-- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.68.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.68/Clapperboard_for_Mac_3.68.pkg)
+- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.69_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_for_Mac_3.69_with_Install_Guide.zip)
+- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.69.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_for_Mac_3.69.pkg)
 
-Windows는 3.69, macOS는 3.68입니다.
+Windows와 macOS 모두 3.69입니다.
 
 ## 주요 변경사항
 
-### Windows 3.69
+### Windows / macOS 3.69
 
 - Sync 이후 무음 분석을 별도 단계로 정리해, 동기화와 무음 편집을 더 명확하게 다룰 수 있습니다.
 - 무음 제거와 무음 마킹은 각각의 목적에 맞는 별도 내보내기 흐름으로 유지됩니다.
 - Sync 또는 오프셋 수정 뒤 파형 미리보기의 컷 표시가 현재 위치에 맞춰 갱신됩니다.
 - 한글과 영어로 볼 수 있는 사용 설명 창을 추가하고, 작은 창에서도 읽기 쉽게 정리했습니다.
-
-### macOS 3.68
-
-- macOS는 24트랙, Synking, 전체 트랙 재생, Premiere/CapCut/Final Cut 내보내기와 앱 안 업데이트를 포함한 3.68 패키지를 제공합니다.
+- 연속 촬영 파일은 기준 오디오가 비는 구간에서도 무음 분석을 이어갈 수 있으며, Premiere·CapCut·Final Cut Pro 멀티트랙 내보내기에 반영됩니다.
+- macOS는 첫 설치 ZIP과 앱 안 업데이트용 번호 PKG를 모두 3.69로 제공합니다.
 
 ## 주요 기능
 
