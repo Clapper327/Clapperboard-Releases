@@ -1,10 +1,10 @@
 {
   "app": "Clapperboard",
-  "version": "3.69",
-  "released_at": "2026-08-10",
+  "version": "3.70",
+  "released_at": "2026-08-23",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.69 & Mac 3.69: Sync and Silence Analysis are now separate steps, continuity-aware silence handling improves multitrack exports, and the in-app User Guide is available in Korean and English.",
+  "notes": "Win 3.69 & Mac 3.70: macOS exports preserve original mono, stereo, 5.1, and multichannel audio layouts in Premiere Pro, Final Cut Pro, and CapCut.",
   "windows": {
     "version": "3.69",
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_Setup_3.69.exe",
@@ -12,9 +12,9 @@
     "size": 81238059
   },
   "mac": {
-    "version": "3.69",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_for_Mac_3.69.pkg",
-    "sha256": "48bcfbad544a9177fb9fc86b2da11517f5c3d75e09266574036aef3db19d10a5",
-    "size": 44281809
+    "version": "3.70",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.70/Clapperboard_for_Mac_3.70.pkg",
+    "sha256": "3a5736e1b035666c9890ca9b42f5585b2d4b0e405d9841e6eee6de1e3674e8b7",
+    "size": 44287352
   }
 }
