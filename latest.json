@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
   "version": "3.70",
-  "released_at": "2026-08-23",
+  "released_at": "2026-08-24",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.69 & Mac 3.70: macOS exports preserve original mono, stereo, 5.1, and multichannel audio layouts in Premiere Pro, Final Cut Pro, and CapCut.",
+  "notes": "Win 3.70 & Mac 3.70: exports preserve original mono, stereo, 5.1, and multichannel audio layouts in Premiere Pro, Final Cut Pro, and CapCut.",
   "windows": {
-    "version": "3.69",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_Setup_3.69.exe",
-    "sha256": "0f20b3d56f451ed99b1cde0dc8bbb3bad59ad90f9147eda9f1c4f127f444bb63",
-    "size": 81238059
+    "version": "3.70",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.70/Clapperboard_Setup_3.70.exe",
+    "sha256": "def27a3360ba5f27058a9fc5cca8081a488730a1cb2c3130f6bdbc5cee5984ab",
+    "size": 81231431
   },
   "mac": {
     "version": "3.70",

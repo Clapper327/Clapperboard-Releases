@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.69 & Mac 3.70**
+현재 공개 버전: **Win 3.70 & Mac 3.70**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 준비를 돕는 데스크톱 앱입니다.
 
@@ -8,24 +8,24 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Windows 3.69 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.69) · [macOS 3.70 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.70)
+[Windows 3.70 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.70) · [macOS 3.70 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.70)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
-- 🪟 Windows: [`Clapperboard_Setup_3.69.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.69/Clapperboard_Setup_3.69.exe)
+- 🪟 Windows: [`Clapperboard_Setup_3.70.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.70/Clapperboard_Setup_3.70.exe)
 - 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.70_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.70/Clapperboard_for_Mac_3.70_with_Install_Guide.zip)
 - 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.70.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.70/Clapperboard_for_Mac_3.70.pkg)
 
-Windows는 3.69이며 macOS는 3.70입니다. Windows의 다음 업데이트에 같은 내보내기 개선을 반영합니다.
+Windows와 macOS 모두 3.70입니다.
 
 ## 주요 변경사항
 
-### macOS 3.70
+### Windows / macOS 3.70
 
 - Premiere Pro XML은 원본 모노, 스테레오, 5.1, 다채널 오디오 구성을 유지해 내보냅니다.
 - Final Cut Pro XML은 원본 오디오 채널 배치를 유지합니다.
 - CapCut draft는 원본 미디어 오디오 매핑을 그대로 사용합니다.
-- macOS 첫 설치용 ZIP과 앱 안 업데이트용 PKG를 3.70으로 제공합니다.
+- Windows 설치 파일과 macOS 첫 설치용 ZIP, 앱 안 업데이트용 PKG를 3.70으로 제공합니다.
 
 ### Windows / macOS 3.69
 
