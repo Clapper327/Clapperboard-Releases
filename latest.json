@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.71",
+  "version": "3.72",
   "released_at": "2026-09-23",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.71 improves Sync consistency, Premiere XML for video-only clips, and multitrack silence export. Mac remains 3.70.",
+  "notes": "Win 3.72 improves multitrack waveform preview and playback, and shows an export alignment notice. Mac remains 3.70.",
   "windows": {
-    "version": "3.71",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.71/Clapperboard_Setup_3.71.exe",
-    "sha256": "4c561503f4fc428c5cb868580d418f90c29b1ded5ea9f9bcc3457c6f1e9cc1d1",
-    "size": 81784417
+    "version": "3.72",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.72/Clapperboard_Setup_3.72.exe",
+    "sha256": "e3bce30590666e51493cbb96be2cf4f9fc0d4ab8ed391a81749ff03fd993dc9d",
+    "size": 81800161
   },
   "mac": {
     "version": "3.70",
