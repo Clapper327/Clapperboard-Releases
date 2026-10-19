@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.72",
-  "released_at": "2026-09-25",
+  "version": "3.73",
+  "released_at": "2026-10-19",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.72 & Mac 3.72: improved multitrack waveform preview and playback, stale-result protection, and an export alignment notice.",
+  "notes": "Win 3.73 improves audio-only XML exports, native audio layouts, and Sync in noisy recordings. Mac remains 3.72.",
   "windows": {
-    "version": "3.72",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.72/Clapperboard_Setup_3.72.exe",
-    "sha256": "e3bce30590666e51493cbb96be2cf4f9fc0d4ab8ed391a81749ff03fd993dc9d",
-    "size": 81800161
+    "version": "3.73",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.73/Clapperboard_Setup_3.73.exe",
+    "sha256": "500eed2ec9d843f19abc918783371c421b1ce06340eadeded7e37fb5994de2dd",
+    "size": 81814365
   },
   "mac": {
     "version": "3.72",
