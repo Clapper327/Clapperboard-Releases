@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.73 & Mac 3.72**
+현재 공개 버전: **Win 3.74 & Mac 3.72**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 준비를 돕는 데스크톱 앱입니다.
 
@@ -8,17 +8,23 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Windows 3.73 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.73) · [macOS 3.72 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.72)
+[Windows 3.74 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.74) · [macOS 3.72 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.72)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
-- 🪟 Windows: [`Clapperboard_Setup_3.73.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.73/Clapperboard_Setup_3.73.exe)
+- 🪟 Windows: [`Clapperboard_Setup_3.74.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.74/Clapperboard_Setup_3.74.exe)
 - 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.72_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.72/Clapperboard_for_Mac_3.72_with_Install_Guide.zip)
 - 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.72.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.72/Clapperboard_for_Mac_3.72.pkg)
 
-Windows는 3.73, macOS는 3.72입니다. 이번 공통 수정의 Mac 적용과 패키징은 별도 PR에서 진행합니다.
+Windows는 3.74, macOS는 3.72입니다. 이번 공통 수정의 Mac 적용과 패키징은 별도 PR에서 진행합니다.
 
 ## 주요 변경사항
+
+### Windows 3.74
+
+- MXF 촬영 파일을 기본·추가 트랙에서 불러올 수 있도록 수정했습니다.
+- 파일 선택 목록을 통일하고 `.mxf`와 `.MXF`를 함께 표시합니다.
+- 실제 MXF의 분석과 내보내기 검증을 추가했습니다.
 
 ### Windows 3.73
 
