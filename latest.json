@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.73",
-  "released_at": "2026-10-19",
+  "version": "3.74",
+  "released_at": "2026-10-22",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.73 improves audio-only XML exports, native audio layouts, and Sync in noisy recordings. Mac remains 3.72.",
+  "notes": "Win 3.74 adds MXF selection in Clapperboard and Synking, including uppercase MXF files. Mac remains 3.72.",
   "windows": {
-    "version": "3.73",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.73/Clapperboard_Setup_3.73.exe",
-    "sha256": "500eed2ec9d843f19abc918783371c421b1ce06340eadeded7e37fb5994de2dd",
-    "size": 81814365
+    "version": "3.74",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.74/Clapperboard_Setup_3.74.exe",
+    "sha256": "1773e58abef1aed2755b10449eab2dc80913b4c68030fdcb69571e366394fda3",
+    "size": 81812655
   },
   "mac": {
     "version": "3.72",
