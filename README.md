@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.75 & Mac 3.72**
+현재 공개 버전: **Win 3.75 & Mac 3.75**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 준비를 돕는 데스크톱 앱입니다.
 
@@ -8,15 +8,15 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Windows 3.75 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.75) · [macOS 3.72 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.72)
+[Windows 3.75 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.75) · [macOS 3.75 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.75)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
 - 🪟 Windows: [`Clapperboard_Setup_3.75.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.75/Clapperboard_Setup_3.75.exe)
-- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.72_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.72/Clapperboard_for_Mac_3.72_with_Install_Guide.zip)
-- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.72.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.72/Clapperboard_for_Mac_3.72.pkg)
+- 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.75_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.75/Clapperboard_for_Mac_3.75_with_Install_Guide.zip)
+- 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.75.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.75/Clapperboard_for_Mac_3.75.pkg)
 
-Windows는 3.75, macOS는 3.72입니다. 이번 공통 수정의 Mac 적용과 패키징은 별도 검증 후 진행합니다.
+처음 설치할 때는 안내문이 포함된 ZIP을 받고, ZIP 안의 PKG를 실행하세요. macOS에서 열기를 차단하면 ZIP 안 안내문의 보안 설정 절차를 확인하세요.
 
 ## 주요 변경사항
 
@@ -26,6 +26,13 @@ Windows는 3.75, macOS는 3.72입니다. 이번 공통 수정의 Mac 적용과 �
 - 전체 파형에서 트랙을 드래그해 싱크를 직접 조절할 수 있습니다.
 - 여러 녹음의 오디오 일치 구간을 이용한 Sync 검증을 개선했습니다.
 - 무음 분석에서 작은 발화의 경계와 짧고 뚜렷한 소리가 유지되도록 개선했습니다.
+
+### macOS 3.75
+
+- Premiere Pro XML과 Final Cut Pro XML에서 오디오 전용 원본 및 모노·스테레오·5.1·다채널 구성을 유지합니다.
+- MXF 촬영 파일을 기본·추가 트랙과 Sync 파일 선택에서 불러올 수 있습니다.
+- 슬레이트 감지와 파형에서 싱크 위치를 조정하는 동작을 개선했습니다.
+- 무음 분석에서 작은 발화의 경계와 짧고 뚜렷한 소리를 보호합니다.
 
 ### Windows 3.74
 
