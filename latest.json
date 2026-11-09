@@ -4,7 +4,7 @@
   "released_at": "2026-11-09",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.76 & Mac 3.75: improved slate and clap alignment.",
+  "notes": "Win 3.76 & Mac 3.76: independently align different slate/clap start cues and request review when multiple cues are plausible.",
   "windows": {
     "version": "3.76",
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_Setup_3.76.exe",
@@ -12,9 +12,9 @@
     "size": 81816289
   },
   "mac": {
-    "version": "3.75",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.75/Clapperboard_for_Mac_3.75.pkg",
-    "sha256": "5aaf9bd883a91530814c8f4b8a8fec7cd004e26fd9405b14de99777963cf9657",
-    "size": 43991010
+    "version": "3.76",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_for_Mac_3.76.pkg",
+    "sha256": "349221527a51217262af117cb6dd4492a7e58ed44be4c692ba0b18bf35812ec1",
+    "size": 43991367
   }
 }
