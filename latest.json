@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.75",
-  "released_at": "2026-11-06",
+  "version": "3.76",
+  "released_at": "2026-11-09",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.75 & Mac 3.75: MXF input, improved slate detection and Sync adjustment, safer silence analysis, and original audio channel preservation in XML exports.",
+  "notes": "Win 3.76 & Mac 3.75: improved slate and clap alignment.",
   "windows": {
-    "version": "3.75",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.75/Clapperboard_Setup_3.75.exe",
-    "sha256": "d732e27345cbf9ac6309c4e5b59f5d09aa558845edbed3752aa5e2bb3976a953",
-    "size": 81813086
+    "version": "3.76",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_Setup_3.76.exe",
+    "sha256": "28d526da82021e7d94a59aeed9a445954040d86e8d768bacd17d35fc837645f2",
+    "size": 81816289
   },
   "mac": {
     "version": "3.75",
