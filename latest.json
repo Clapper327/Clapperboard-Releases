@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.77",
+  "version": "3.78",
   "released_at": "2026-11-12",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.77 & Mac 3.76: align multicam silence marks to selected reference audio.",
+  "notes": "Win 3.78 & Mac 3.76: drag and drop media files from Windows Explorer.",
   "windows": {
-    "version": "3.77",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.77/Clapperboard_Setup_3.77.exe",
-    "sha256": "ccf24e700299dfde71b8a062c407d2ba6975b4ad67dae11cbedeb9f25d9742dc",
-    "size": 81820475
+    "version": "3.78",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.78/Clapperboard_Setup_3.78.exe",
+    "sha256": "cecae594b112f0605a3f08ec9ae5bc55870df329162a81fb7826cd6104649454",
+    "size": 81825836
   },
   "mac": {
     "version": "3.76",
