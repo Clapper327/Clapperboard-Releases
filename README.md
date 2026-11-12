@@ -1,6 +1,6 @@
 # Clapperboard Releases
 
-현재 공개 버전: **Win 3.78 & Mac 3.76**
+현재 공개 버전: **Win 3.79 & Mac 3.76**
 
 Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구간을 정리해 영상 편집 준비를 돕는 데스크톱 앱입니다.
 
@@ -8,17 +8,21 @@ Clapperboard는 여러 촬영 파일의 오디오를 동기화하고, 무음 구
 
 ## 다운로드
 
-[Windows 3.78 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.78) · [macOS 3.76 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.76)
+[Windows 3.79 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.79) · [macOS 3.76 다운로드](https://github.com/Clapper327/Clapperboard-Releases/releases/tag/v3.76)
 
 📦 **macOS 처음 설치자는 ZIP 파일을 받으세요.**
 
-- 🪟 Windows: [`Clapperboard_Setup_3.78.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.78/Clapperboard_Setup_3.78.exe)
+- 🪟 Windows: [`Clapperboard_Setup_3.79.exe`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.79/Clapperboard_Setup_3.79.exe)
 - 🍎 macOS 처음 설치: [`Clapperboard_for_Mac_3.76_with_Install_Guide.zip`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_for_Mac_3.76_with_Install_Guide.zip)
 - 🔄 macOS 앱 안 업데이트: [`Clapperboard_for_Mac_3.76.pkg`](https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_for_Mac_3.76.pkg)
 
 처음 설치할 때는 안내문이 포함된 ZIP을 받고, ZIP 안의 PKG를 실행하세요. macOS에서 열기를 차단하면 ZIP 안 안내문의 보안 설정 절차를 확인하세요.
 
 ## 주요 변경사항
+
+### Windows 3.79
+
+- 탐색기에서 파일을 끌어 놓으면 앱이 종료되던 문제를 수정했습니다.
 
 ### Windows 3.78
 
