@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.78",
+  "version": "3.79",
   "released_at": "2026-11-12",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.78 & Mac 3.76: drag and drop media files from Windows Explorer.",
+  "notes": "Win 3.79 & Mac 3.76: fix an Explorer file-drop crash.",
   "windows": {
-    "version": "3.78",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.78/Clapperboard_Setup_3.78.exe",
-    "sha256": "cecae594b112f0605a3f08ec9ae5bc55870df329162a81fb7826cd6104649454",
-    "size": 81825836
+    "version": "3.79",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.79/Clapperboard_Setup_3.79.exe",
+    "sha256": "45bcf85ae5c28c40aaf0fd70c9885b4ab4331abac5f24a9fa1ddf71a8cdd020a",
+    "size": 81820247
   },
   "mac": {
     "version": "3.76",
