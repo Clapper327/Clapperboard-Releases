@@ -1,15 +1,15 @@
 {
   "app": "Clapperboard",
-  "version": "3.76",
-  "released_at": "2026-11-09",
+  "version": "3.77",
+  "released_at": "2026-11-12",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.76 & Mac 3.76: independently align different slate/clap start cues and request review when multiple cues are plausible.",
+  "notes": "Win 3.77 & Mac 3.76: align multicam silence marks to selected reference audio.",
   "windows": {
-    "version": "3.76",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_Setup_3.76.exe",
-    "sha256": "28d526da82021e7d94a59aeed9a445954040d86e8d768bacd17d35fc837645f2",
-    "size": 81816289
+    "version": "3.77",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.77/Clapperboard_Setup_3.77.exe",
+    "sha256": "ccf24e700299dfde71b8a062c407d2ba6975b4ad67dae11cbedeb9f25d9742dc",
+    "size": 81820475
   },
   "mac": {
     "version": "3.76",
