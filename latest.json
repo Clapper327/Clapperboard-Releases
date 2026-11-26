@@ -1,10 +1,10 @@
 {
   "app": "Clapperboard",
   "version": "3.79",
-  "released_at": "2026-11-12",
+  "released_at": "2026-11-26",
   "channel": "stable",
   "available": true,
-  "notes": "Win 3.79 & Mac 3.76: fix an Explorer file-drop crash.",
+  "notes": "Win 3.79 & Mac 3.79: Finder file drop and aligned multicam silence marks on Mac.",
   "windows": {
     "version": "3.79",
     "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.79/Clapperboard_Setup_3.79.exe",
@@ -12,9 +12,9 @@
     "size": 81820247
   },
   "mac": {
-    "version": "3.76",
-    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.76/Clapperboard_for_Mac_3.76.pkg",
-    "sha256": "349221527a51217262af117cb6dd4492a7e58ed44be4c692ba0b18bf35812ec1",
-    "size": 43991367
+    "version": "3.79",
+    "url": "https://github.com/Clapper327/Clapperboard-Releases/releases/download/v3.79/Clapperboard_for_Mac_3.79.pkg",
+    "sha256": "b63de519468ffe9676d7a65fb4e778d304cba4832d95ea621209321726565571",
+    "size": 44062173
   }
 }
